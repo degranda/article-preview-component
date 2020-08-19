@@ -1,0 +1,11 @@
+main {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.main--pic-container {
+  height: auto;
+  border-radius: 10px 0 0 10px;
+}
+.main--avatar-container__active {
+  border-radius: 0 0 10px 0;
+}

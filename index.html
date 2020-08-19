@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <title>Frontend Mentor | Article preview component</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/tablet.css"
+      media="(min-width: 700px)"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="main--pic-container"></div>
+      <section class="main--info-container">
+        <div class="main-info">
+          <h2>
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h2>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </div>
+        <div id="disabled" class="main--avatar-container visible">
+          <img src="./images/avatar-michelle.jpg" alt="Avatar de Michelle" />
+          <div class="main--avatar-container_info">
+            <p>Michelle Appleton</p>
+            <span>28 Jun 2020</span>
+          </div>
+          <button id="share">
+            <span class="share-icon"></span>
+          </button>
+        </div>
+        <div id="activate" class="main--avatar-container__active invisible">
+          <h2>SHARE</h2>
+          <div class="main--icons-container">
+            <a href="#" title="Facebook"><span class="facebook"></span></a>
+            <a href="#" title="Twitter"><span class="twitter"></span></a>
+            <a href="#" title="Pinteres"><span class="pinteres"></span></a>
+          </div>
+          <button id="share__active">
+            <span class="share-icon__active"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
